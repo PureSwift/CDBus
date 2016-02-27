@@ -1,0 +1,21 @@
+module CDBus [system] {
+    header "/usr/include/dbus-1.0/dbus/dbus.h"
+    header "/usr/include/dbus-1.0/dbus/dbus-address.h"
+    header "/usr/include/dbus-1.0/dbus/dbus-bus.h"
+    header "/usr/include/dbus-1.0/dbus/dbus-connection.h"
+    header "/usr/include/dbus-1.0/dbus/dbus-errors.h"
+    header "/usr/include/dbus-1.0/dbus/dbus-macros.h"
+    header "/usr/include/dbus-1.0/dbus/dbus-message.h"
+    header "/usr/include/dbus-1.0/dbus/dbus-misc.h"
+    header "/usr/include/dbus-1.0/dbus/dbus-pending-call.h"
+    header "/usr/include/dbus-1.0/dbus/dbus-protocol.h"
+    header "/usr/include/dbus-1.0/dbus/dbus-server.h"
+    header "/usr/include/dbus-1.0/dbus/dbus-shared.h"
+    header "/usr/include/dbus-1.0/dbus/dbus-signature.h"
+    header "/usr/include/dbus-1.0/dbus/dbus-syntax.h"
+    header "/usr/include/dbus-1.0/dbus/dbus-threads.h"
+    header "/usr/include/dbus-1.0/dbus/dbus-types.h"
+    header "/usr/lib/x86_64-linux-gnu/dbus-1.0/include/dbus/dbus-arch-deps.h"
+    link "dbus-1"
+    export *
+}
