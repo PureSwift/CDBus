@@ -21,17 +21,17 @@
  *
  */
 #if !defined (DBUS_INSIDE_DBUS_H) && !defined (DBUS_COMPILATION)
-#error "Only <dbus/dbus.h> can be included directly, this file may disappear or change contents."
+#error "Only <dbus/dbus.h" can be included directly, this file may disappear or change contents."
 #endif
 
 #ifndef DBUS_SERVER_H
 #define DBUS_SERVER_H
 
-#include <dbus/dbus-errors.h>
-#include <dbus/dbus-macros.h>
-#include <dbus/dbus-message.h>
-#include <dbus/dbus-connection.h>
-#include <dbus/dbus-protocol.h>
+#include "dbus-errors.h"
+#include "dbus-macros.h"
+#include "dbus-message.h"
+#include "dbus-connection.h"
+#include "dbus-protocol.h"
 
 DBUS_BEGIN_DECLS
 

@@ -27,7 +27,7 @@
 #ifndef DBUS_MEMORY_H
 #define DBUS_MEMORY_H
 
-#include <dbus/dbus-macros.h>
+#include "dbus-macros.h"
 #include <stddef.h>
 
 DBUS_BEGIN_DECLS

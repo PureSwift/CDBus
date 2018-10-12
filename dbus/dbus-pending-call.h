@@ -27,9 +27,9 @@
 #ifndef DBUS_PENDING_CALL_H
 #define DBUS_PENDING_CALL_H
 
-#include <dbus/dbus-macros.h>
-#include <dbus/dbus-types.h>
-#include <dbus/dbus-connection.h>
+#include "dbus-macros.h"
+#include "dbus-types.h"
+#include "dbus-connection.h"
 
 DBUS_BEGIN_DECLS
 

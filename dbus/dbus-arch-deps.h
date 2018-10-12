@@ -27,7 +27,7 @@
 #ifndef DBUS_ARCH_DEPS_H
 #define DBUS_ARCH_DEPS_H
 
-#include <dbus/dbus-macros.h>
+#include "dbus-macros.h"
 
 DBUS_BEGIN_DECLS
 

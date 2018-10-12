@@ -27,8 +27,8 @@
 #ifndef DBUS_ADDRESS_H
 #define DBUS_ADDRESS_H
 
-#include <dbus/dbus-types.h>
-#include <dbus/dbus-errors.h>
+#include "dbus-types.h"
+#include "dbus-errors.h"
 
 DBUS_BEGIN_DECLS
 

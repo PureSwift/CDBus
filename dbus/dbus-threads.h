@@ -27,8 +27,8 @@
 #ifndef DBUS_THREADS_H
 #define DBUS_THREADS_H
 
-#include <dbus/dbus-macros.h>
-#include <dbus/dbus-types.h>
+#include "dbus-macros.h"
+#include "dbus-types.h"
 
 DBUS_BEGIN_DECLS
 

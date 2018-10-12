@@ -27,11 +27,11 @@
 #ifndef DBUS_CONNECTION_H
 #define DBUS_CONNECTION_H
 
-#include <dbus/dbus-errors.h>
-#include <dbus/dbus-macros.h>
-#include <dbus/dbus-memory.h>
-#include <dbus/dbus-message.h>
-#include <dbus/dbus-shared.h>
+#include "dbus-errors.h"
+#include "dbus-macros.h"
+#include "dbus-memory.h"
+#include "dbus-message.h"
+#include "dbus-shared.h"
 
 DBUS_BEGIN_DECLS
 

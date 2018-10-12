@@ -27,11 +27,11 @@
 #ifndef DBUS_MESSAGE_H
 #define DBUS_MESSAGE_H
 
-#include <dbus/dbus-macros.h>
-#include <dbus/dbus-types.h>
-#include <dbus/dbus-arch-deps.h>
-#include <dbus/dbus-memory.h>
-#include <dbus/dbus-errors.h>
+#include "dbus-macros.h"
+#include "dbus-types.h"
+#include "dbus-arch-deps.h"
+#include "dbus-memory.h"
+#include "dbus-errors.h"
 #include <stdarg.h>
 
 DBUS_BEGIN_DECLS

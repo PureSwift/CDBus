@@ -27,8 +27,8 @@
 #ifndef DBUS_MISC_H
 #define DBUS_MISC_H
 
-#include <dbus/dbus-types.h>
-#include <dbus/dbus-errors.h>
+#include "dbus-types.h"
+#include "dbus-errors.h"
 
 DBUS_BEGIN_DECLS
 

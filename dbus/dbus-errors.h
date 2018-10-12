@@ -28,9 +28,9 @@
 #ifndef DBUS_ERROR_H
 #define DBUS_ERROR_H
 
-#include <dbus/dbus-macros.h>
-#include <dbus/dbus-types.h>
-#include <dbus/dbus-protocol.h>
+#include "dbus-macros.h"
+#include "dbus-types.h"
+#include "dbus-protocol.h"
 
 DBUS_BEGIN_DECLS
 

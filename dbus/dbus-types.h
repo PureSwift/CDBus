@@ -28,7 +28,7 @@
 #define DBUS_TYPES_H
 
 #include <stddef.h>
-#include <dbus/dbus-arch-deps.h>
+#include "dbus-arch-deps.h"
 
 typedef dbus_uint32_t  dbus_unichar_t;
 /* boolean size must be fixed at 4 bytes due to wire protocol! */

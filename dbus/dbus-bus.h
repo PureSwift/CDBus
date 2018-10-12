@@ -27,7 +27,7 @@
 #ifndef DBUS_BUS_H
 #define DBUS_BUS_H
 
-#include <dbus/dbus-connection.h>
+#include "dbus-connection.h"
 
 DBUS_BEGIN_DECLS
 
