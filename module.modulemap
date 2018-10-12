@@ -1,5 +1,5 @@
 module CDBus [system] {
-    header "/usr/include/dbus/dbus.h"
+    header "shim.h"
     link "dbus-1"
     export *
 }
